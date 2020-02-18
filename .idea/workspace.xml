@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f90086e4-5f01-4b3a-8159-63b239a705a7" name="Default Changelist" comment="" />
+    <list default="true" id="bc0a7b10-4016-48b9-950c-0a2424ebb09a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1XzdU5eqnhzjNF7PeQNvrHoDAIY" />
+  <component name="ProjectId" id="1XznMfiUl7G7vV8Fb5zADzyNpQh" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -66,10 +73,13 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="untitled104" />
+      <module name="Java-Exercise-week2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -83,18 +93,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f90086e4-5f01-4b3a-8159-63b239a705a7" name="Default Changelist" comment="" />
-      <created>1582052869976</created>
+      <changelist id="bc0a7b10-4016-48b9-950c-0a2424ebb09a" name="Default Changelist" comment="" />
+      <created>1582057744311</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582052869976</updated>
+      <updated>1582057744311</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="404" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1582052877562">
+    <state x="313" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1582057754383">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="404" y="322" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582052877562" />
+    <state x="313" y="342" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1582057754383" />
   </component>
 </project>
