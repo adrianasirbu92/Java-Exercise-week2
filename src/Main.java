@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Iterator;
+import java.util.*;
 
 public class Main {
    /* 1. Initiate an Arraylist. Using For loop add integers from 1 to 10
@@ -17,24 +19,19 @@ public class Main {
         System.out.println(numbers);
 
         //2.
-        List<Integer> n1 = new ArrayList<>(Arrays.asList(1,2,3,6,7,3,2,1));
-        for (int i = 0; i < n1.size(); i++) {
-            if (n1.get(i) == 2) {
-                n1.remove(i);
-            }
-        }
+        List<Integer> n1 = new ArrayList<>(Arrays.asList(1, 2, 3, 6, 7, 3, 2, 1));
+        n1.removeAll(Arrays.asList(2));
         System.out.println(n1);
 
+
         //3.
-        List<Integer> odd = new ArrayList<>(Arrays.asList(1, 2, 3, 6, 7, 3, 2, 1));
-        int i = 0;
-        for (int j = 0; j < odd.size(); j++) {
-            if (odd.get(j) % 2 != 0) {
-                odd.remove(j);
-                j -= i;
-                i++;
+        Iterator<Integer> iteratornum = numbers.iterator();
+        while (iteratornum.hasNext()) {
+            int num = iteratornum.next();
+            if (num % 2 != 0 ) {
+                iteratornum.remove();
             }
         }
-        System.out.println(odd);
-    }
-}
+        System.out.println(numbers);
+    }}
+       
